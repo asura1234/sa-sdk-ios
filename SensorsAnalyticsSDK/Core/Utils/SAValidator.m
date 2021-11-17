@@ -23,8 +23,8 @@
 #endif
 
 #import "SAValidator.h"
-#import "SAConstants+Private.h"
-#import "SALog.h"
+#import "../SAConstants+Private.h"
+#import "../SALogger/SALog.h"
 #import "SensorsAnalyticsSDK+Private.h"
 
 static NSRegularExpression *regexForValidKey;

@@ -23,6 +23,8 @@
 #endif
 
 #import "SAFileStorePlugin.h"
+#import "SAFileStore.h"
+#import "SALogger/SALog.h"
 
 static NSString * const kSAFileStorePluginType = @"cn.sensorsdata.File.";
 

@@ -23,11 +23,12 @@
 #endif
 
 #import "SASuperProperty.h"
-#import "SAPropertyValidator.h"
+#import "../SAFileStore.h"
+#import "EventObject/SAPropertyValidator.h"
+#import "../SAModuleManager.h"
+#import "../Utils/SAReadWriteLock.h"
+#import "../SALogger/SALog.h"
 #import "SAStoreManager.h"
-#import "SAModuleManager.h"
-#import "SAReadWriteLock.h"
-#import "SALog.h"
 
 static NSString *const kSASavedSuperPropertiesFileName = @"super_properties";
 
