@@ -23,9 +23,10 @@
 #endif
 
 #import "SACAIDUtils.h"
-#import "SASwizzle.h"
+#import "../Core/SASwizzle.h"
+#import "../Core/SAFileStore.h"
+#import "../Core/SALogger/SALog.h"
 #import "SAStoreManager.h"
-#import "SALog.h"
 
 static NSString *const kSACAIDCacheKey = @"com.sensorsdata.caid.cache";
 static NSDictionary *caid;
