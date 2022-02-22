@@ -23,7 +23,6 @@
 #endif
 
 #import "SASuperProperty.h"
-#import "../SAFileStore.h"
 #import "EventObject/SAPropertyValidator.h"
 #import "../SAModuleManager.h"
 #import "../Utils/SAReadWriteLock.h"

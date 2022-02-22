@@ -28,12 +28,11 @@
 #import "../../AutoTrack/SAAutoTrackUtils.h"
 #import "../../Core/Utils/SAReadWriteLock.h"
 #import "../../Core/Network/SAReachability.h"
-#import "../../Core/SAFileStore.h"
 #import "../../Core/Utils/SAURLUtils.h"
 #import "../VisualProperties/DebugLog/SAVisualizedLogger.h"
 #import "../../Core/Utils/SAJSONUtil.h"
 #import "../../Core/SALogger/SALog.h"
-#import "SAStoreManager.h"
+#import "../../Core/SAStoreManager.h"
 
 static NSString * kSAConfigFileName = @"SAVisualPropertiesConfig";
 static NSString * kSARequestConfigPath = @"config/visualized/iOS.conf";

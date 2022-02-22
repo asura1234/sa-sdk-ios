@@ -28,7 +28,7 @@
 #import "../../Utils/SADateFormatter.h"
 #import "../../Utils/SAValidator.h"
 #import "SensorsAnalyticsSDK+Private.h"
-#import "SALog.h"
+#import "../../SALogger/SALog.h"
 
 @implementation NSString (SAProperty)
 

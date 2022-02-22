@@ -28,7 +28,7 @@
 #import "../../Utils/SAValidator.h"
 #import "../../SALogger/SALog.h"
 #import "SensorsAnalyticsSDK+Private.h"
-#import "SASessionProperty.h"
+#import "../SASessionProperty.h"
 
 @implementation SATrackEventObject
 

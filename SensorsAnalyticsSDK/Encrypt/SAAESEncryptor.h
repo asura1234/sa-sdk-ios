@@ -20,7 +20,7 @@
 
 #import <Foundation/Foundation.h>
 #import "SAAlgorithmProtocol.h"
-#import "SAAESCrypt.h"
+#import "../Store/SAAESCrypt.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

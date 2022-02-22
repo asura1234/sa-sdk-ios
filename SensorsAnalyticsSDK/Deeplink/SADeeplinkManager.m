@@ -26,11 +26,10 @@
 #import "../Core/SensorsAnalyticsSDK+Private.h"
 #import "../Core/SAConstants+Private.h"
 #import "../Core/Utils/SAURLUtils.h"
-#import "../Core/SAFileStore.h"
 #import "../Core/SALogger/SALog.h"
 #import "../Core/Builder/SAIdentifier.h"
 #import "../Core/Utils/SAJSONUtil.h"
-#import "SAStoreManager.h"
+#import "../Core/SAStoreManager.h"
 #import "SensorsAnalyticsSDK+Deeplink.h"
 #import "../Core/SAApplication.h"
 

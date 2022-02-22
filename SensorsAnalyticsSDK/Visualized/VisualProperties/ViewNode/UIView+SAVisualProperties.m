@@ -25,7 +25,7 @@
 #import "UIView+SAVisualProperties.h"
 #import "../../SAVisualizedManager.h"
 #import <objc/runtime.h>
-#import "SAAutoTrackUtils.h"
+#import "../../../AutoTrack/SAAutoTrack.h"
 
 static void *const kSAViewNodePropertyName = (void *)&kSAViewNodePropertyName;
 

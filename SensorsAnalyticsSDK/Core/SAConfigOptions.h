@@ -19,7 +19,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SAStorePlugin.h"
+#import "../Store/SAStorePlugin.h"
 #import "SAConstants.h"
 
 @class SASecretKey;
