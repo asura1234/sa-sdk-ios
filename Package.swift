@@ -115,5 +115,10 @@ let package = Package(
             path: "SensorsAnalyticsSDK/WKWebView/",
             publicHeadersPath: "."
         ),
+        .target(
+            name: "SensorsAnalyticsStore",
+            path: "SensorsAnalyticsSDK/Store/",
+            publicHeadersPath: "."
+        ),
     ]
 )
