@@ -24,6 +24,7 @@ let package = Package(
         .library(name: "SensorsAnalyticsVisualized", targets: ["SensorsAnalyticsVisualized"]),
         .library(name: "SensorsAnalyticsWebView", targets: ["SensorsAnalyticsWebView"]),
         .library(name: "SensorsAnalyticsWKWebView", targets: ["SensorsAnalyticsWKWebView"]),
+        .library(name: "SensorsAnalyticsStore", targets: ["SensorsAnalyticsStore"]),
     ],
     dependencies: [],
     targets: [
