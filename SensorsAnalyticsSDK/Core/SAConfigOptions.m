@@ -24,7 +24,7 @@
 
 #import "SAConfigOptions.h"
 #import "SensorsAnalyticsSDK+Private.h"
-#import "SAIdentifier.h"
+#import "Builder/SAIdentifier.h"
 
 @interface SAConfigOptions ()<NSCopying>
 

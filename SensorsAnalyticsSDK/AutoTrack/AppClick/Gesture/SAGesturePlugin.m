@@ -23,7 +23,7 @@
 #endif
 
 #import "SAGesturePlugin.h"
-#import "SASwizzle.h"
+#import "../../../Core/SASwizzle.h"
 #import "UIGestureRecognizer+SAAutoTrack.h"
 #import <UIKit/UIKit.h>
 

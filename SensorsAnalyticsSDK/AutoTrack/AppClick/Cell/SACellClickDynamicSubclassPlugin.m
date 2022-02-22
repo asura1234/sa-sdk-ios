@@ -23,7 +23,7 @@
 #endif
 
 #import "SACellClickDynamicSubclassPlugin.h"
-#import "SASwizzle.h"
+#import "../../../Core/SASwizzle.h"
 #import <UIKit/UIKit.h>
 
 static NSString *const kSAEventTrackerPluginType = @"AppClick+ScrollView";

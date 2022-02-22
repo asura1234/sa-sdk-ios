@@ -45,8 +45,8 @@
 #if __has_include("SACellClickHookDelegatePlugin.h")
 #import "SACellClickHookDelegatePlugin.h"
 #endif
-#import "SACellClickDynamicSubclassPlugin.h"
-#import "SAEventTrackerPluginManager.h"
+#import "AppClick/Cell/SACellClickDynamicSubclassPlugin.h"
+#import "../Core/EventTrackerPlugin/SAEventTrackerPluginManager.h"
 #if __has_include("SAGesturePlugin.h")
 #import "SAGesturePlugin.h"
 #endif

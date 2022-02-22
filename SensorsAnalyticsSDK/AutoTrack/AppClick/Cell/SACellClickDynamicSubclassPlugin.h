@@ -18,8 +18,8 @@
 // limitations under the License.
 //
 
-#import "SAEventTrackerPlugin.h"
-#import "SAEventTrackerPluginProtocol.h"
+#import "../../../Core/EventTrackerPlugin/SAEventTrackerPlugin.h"
+#import "../../../Core/EventTrackerPlugin/SAEventTrackerPluginProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

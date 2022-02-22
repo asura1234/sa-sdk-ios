@@ -24,8 +24,8 @@
 
 #include <sys/sysctl.h>
 #import "SAPresetPropertyPlugin.h"
-#import "SAJSONUtil.h"
-#import "SALog.h"
+#import "../Utils/SAJSONUtil.h"
+#import "../SALogger/SALog.h"
 
 #if TARGET_OS_IOS
 #import <UIKit/UIKit.h>

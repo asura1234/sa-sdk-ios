@@ -27,7 +27,7 @@
 #import "../Core/SALogger/SALog.h"
 #import "../Core/Utils/SAValidator.h"
 #import "../Core/SAModuleManager.h"
-#import "SAStoreManager.h"
+#import "../Core/SAStoreManager.h"
 #import "SAConfigOptions+RemoteConfig.h"
 #if __has_include("SAConfigOptions+Encrypt.h")
 #import "SAConfigOptions+Encrypt.h"

@@ -24,7 +24,6 @@
 
 #import "SAIdentifier.h"
 #import "../SAConstants+Private.h"
-#import "../SAFileStore.h"
 #import "../Utils/SAValidator.h"
 #import "../SALogger/SALog.h"
 #import "SAStoreManager.h"

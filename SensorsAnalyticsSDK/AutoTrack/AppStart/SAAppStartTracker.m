@@ -23,7 +23,7 @@
 #endif
 
 #import "SAAppStartTracker.h"
-#import "SAStoreManager.h"
+#import "../../Core/SAStoreManager.h"
 #import "../../Core/SAConstants+Private.h"
 #import "../../Core/SensorsAnalyticsSDK+Private.h"
 

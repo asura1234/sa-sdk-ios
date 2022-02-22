@@ -24,7 +24,7 @@
 
 #import "SADeviceIDPropertyPlugin.h"
 #import "SAPropertyPluginManager.h"
-#import "SAIdentifier.h"
+#import "../Builder/SAIdentifier.h"
 
 NSString * const kSADeviceIDPropertyPluginAnonymizationID = @"$anonymization_id";
 

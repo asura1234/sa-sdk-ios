@@ -27,14 +27,13 @@
 #import "SAEventStore.h"
 #import "SADatabase.h"
 #import "../Network/SANetwork.h"
-#import "../SAFileStore.h"
 #import "../Utils/SAJSONUtil.h"
 #import "../SALogger/SALog.h"
 #import "../SAObject+SAConfigOptions.h"
 #import "../Network/SAReachability.h"
 #import "../SAConstants+Private.h"
 #import "../SAModuleManager.h"
-#import "SAFileStorePlugin.h"
+#import "../../Store/SAFileStorePlugin.h"
 
 static NSInteger kSAFlushMaxRepeatCount = 100;
 

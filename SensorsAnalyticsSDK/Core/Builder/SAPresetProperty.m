@@ -30,12 +30,12 @@
 #import "../SensorsAnalyticsSDK+Private.h"
 #import "../Network/SAReachability.h"
 #import "../SALogger/SALog.h"
-#import "../SAFileStore.h"
 #import "../Utils/SADateFormatter.h"
 #import "../Utils/SAValidator.h"
 #import "../SAModuleManager.h"
 #import "../Utils/SAJSONUtil.h"
-#import "SAReachability.h"
+#import "../Network/SAReachability.h"
+#import "../SAStoreManager.h"
 
 #if TARGET_OS_IOS
 #import <CoreTelephony/CTTelephonyNetworkInfo.h>
